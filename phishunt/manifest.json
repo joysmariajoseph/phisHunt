@@ -1,0 +1,19 @@
+{ "name": "Example", "version": "1.0", "description": "Example",
+"browser_action": {
+"default_popup": "popup.html",
+"default_icon":"icon.png"
+ },
+
+"background": {
+"scripts": ["background.js"]
+},
+"manifest_version":2,
+"permissions": [
+"tabs",
+"http://*.facebook.com/*",
+"http://13.71.126.236/*",
+"http://*/*",
+"https://*/*",
+"<all_urls>"
+]
+}
